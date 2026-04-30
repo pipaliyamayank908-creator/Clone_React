@@ -1,5 +1,8 @@
  import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { IoCartSharp } from "react-icons/io5";
+import { MdSms } from "react-icons/md";
+
 
 function Footer() {
   return (
@@ -58,9 +61,13 @@ function Footer() {
         </div>
 
         <div className="flex gap-6 text-xl">
+       
           <FaFacebookF />
           <FaTwitter />
           <FaInstagram />
+          <IoCartSharp />
+          <MdSms />
+
         </div>
       </div>
     </footer>
